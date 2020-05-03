@@ -6,15 +6,15 @@
 
 <h3 align = 'center'> Description</h3>
 <p>This a desktop application that is kept by a user for the purpose of keeping records about their investments.
-Here we provide the users three kinds of options to choose from,which are:</p>
+Here we provide the users three kinds of options to choose from:</p>
 
 - Fixed Deposits
 
 - Mutual Funds
 
-- Assets
+- Bank Accounts
 
-This system enables user to INSERT,UPDATE,DELETE,SEARCH and DISPLAY the above options according to their table attributes.
+This system enables user to insert,update,delete,search and display the above options according to their table attributes.
 
 ------------------------------------------
 
@@ -22,7 +22,7 @@ This system enables user to INSERT,UPDATE,DELETE,SEARCH and DISPLAY the above op
 Clone the repository.
 Run the program by typing python mymoney.py on the command prompt
 ```bash
-    python mymoney.py
+    python3 mymoney.py
 ```
 ------------------------------------------
 
