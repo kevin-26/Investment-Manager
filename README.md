@@ -54,6 +54,11 @@ Run the program by typing python mymoney.py on the command prompt
 - Has user authentication to protect your personal bank details
 
 ------------------------------------------
+## How to use the application:
+[User manual](https://docs.google.com/document/d/18ocAY8t8aSYzmVxzfiuSnHb6uqIoz_dHafuWWiFT5JE/edit?usp=sharing)
+
+------------------------------------------
+
 <h3 align="center"><b>Developed by <a href="https://github.com/KevinShahgit">Kevin</a>,<a href="https://github.com/Parth18Shah"> Parth</a> and <a href="https://github.com/bhuvnesh7">Bhuvnesh.</a></b></h1>
 
 
