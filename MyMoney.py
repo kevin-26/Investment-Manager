@@ -746,7 +746,7 @@ class Home:
     def homepage(self):
         global root
         root = Tk()
-        root.title("Investment Manager")
+        root.title("MyMoney")
         root.resizable(0, 0)
 
         cho1 = None  # variable that determines what we have chosen: Fixed Deposit or Mutual Fund or Assets
@@ -1045,9 +1045,16 @@ class Home:
             about.resizable(0, 0)
             info_label = Label(
                 about,
-                text='Made by:\n\nKevin Shah\nParth Shah\nBhuvnesh Solanki')
+                text='MyMoney is an open-source\ninvestment manager application.\n\n\nMade by:\n\nKevin Shah\nParth Shah\nBhuvnesh Solanki')
             info_label.grid(row=0, column=0, padx=(50, 55), pady=(15, 15))
-            about.geometry('200x100+30+30')
+
+            def repo_button():
+                url = "https://github.com/KevinShahgit/Investment-Manager"
+                webbrowser.open(url, new=1)
+
+            button_repo = Button(about,text = 'GitHub Repository', relief=GROOVE, command = repo_button)
+            button_repo.grid(row=1,column=0,padx=(50,55),pady=(15,15))
+            about.geometry('300x225+30+30')
 
         def version_button():
             version = Toplevel()
